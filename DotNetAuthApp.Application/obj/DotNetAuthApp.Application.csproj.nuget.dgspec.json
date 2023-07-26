@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ravikumar22\\Desktop\\Ravi\\.Net Auth\\DotNetAuthApp\\DotNetAuthApp.Application\\DotNetAuthApp.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ravikumar22\\Desktop\\Ravi\\.Net Auth\\DotNetAuthApp\\DotNetAuthApp.Application\\DotNetAuthApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ravikumar22\\Desktop\\Ravi\\.Net Auth\\DotNetAuthApp\\DotNetAuthApp.Application\\DotNetAuthApp.Application.csproj",
+        "projectName": "DotNetAuthApp.Application",
+        "projectPath": "C:\\Users\\ravikumar22\\Desktop\\Ravi\\.Net Auth\\DotNetAuthApp\\DotNetAuthApp.Application\\DotNetAuthApp.Application.csproj",
+        "packagesPath": "C:\\Users\\ravikumar22\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ravikumar22\\Desktop\\Ravi\\.Net Auth\\DotNetAuthApp\\DotNetAuthApp.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ravikumar22\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.6.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.6.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.32.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
